@@ -1,0 +1,66 @@
+body {
+  background: pink;
+color: white;
+font-family: "Playfair", serif;
+margin-bottom: 50px;
+}
+header {
+
+  border-bottom: solid 1px rgb(131, 96, 96) ;
+  padding: 20px;
+  font-size: 28px;
+  color: #b17995; 
+}
+
+.chamada {
+  background: #8b909b;
+  padding-bottom: 70px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.chamada-texto {
+
+margin-right:5%;
+
+}
+h1 {
+font-size: 26px;
+    
+}
+p {
+font-size: 80px;
+
+}
+
+img {
+height: 200px;
+   
+}
+.categoria-musica {
+display: flex;
+overflow-x: auto;
+gap: 20px;
+
+}
+.categoria {
+padding-left: 0px;
+padding-right: 0px;
+
+}
+.categoria-musica img {
+
+opacity: 0.5;
+height: 200px;
+}
+.categoria-musica img:hover {
+opacity: 1.0;
+border: 1px solid palevioletred
+
+}
+.categoria h2 {
+
+color: #b17995;
+
+}
